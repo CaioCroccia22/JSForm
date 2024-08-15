@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form{
+    width: 500px;
+    outline: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cont-form h1{
+    padding-bottom: 20px;
+}
