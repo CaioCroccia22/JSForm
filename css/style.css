@@ -12,6 +12,7 @@ body{
 .form{
     width: 500px;
     outline: solid 1px black;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,9 +21,33 @@ body{
 .cont-form{
     display: flex;
     flex-direction: column;
+    padding: 50px;
 }
 
 
 .cont-form h1{
     padding-bottom: 20px;
+    text-align: center;
 }
+
+.cont-form input{
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+.btn-submit{
+    margin: 10px;
+    padding: 1.1rem;
+    background-color:#25a62c;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.btn-submit:hover{
+    background-color: #36903e;
+    cursor: pointer;
+    transform: translate( 0%, -3%);
+}
+
